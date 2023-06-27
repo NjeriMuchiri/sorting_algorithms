@@ -5,6 +5,7 @@
  * bubble sorting algorithm
  * @array: array integers to sort
  * @size: The size of the array
+ * Description: Prints the array after every swap
  * Return: no return
 */
 void bubble_sort(int *array, size_t size)
