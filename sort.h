@@ -32,5 +32,9 @@ void increase_sorting(listint_t **ptr, listint_t **limit, listint_t **list);
 void decrease_sorting(listint_t **ptr, listint_t **limit, listint_t **list);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
+void mersort(int *array, int low, int high, int *buffer);
+void merge(int *a, int low, int middle, int high, int *buff);
+void print_data(char *msg, int *a, int from, int to);
 
 #endif /*SORT_H*/
