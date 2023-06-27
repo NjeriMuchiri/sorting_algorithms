@@ -4,7 +4,7 @@
  * in ascending order using the shell sort algorithm
  * @array: array of integers to be sort
  * @size: the size of the array
- * Return: no return 
+ * Return: no return
 */
 void shell_sort(int *array, size_t size)
 {
