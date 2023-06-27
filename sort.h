@@ -39,5 +39,6 @@ void print_data(char *msg, int *a, int from, int to);
 void heap_sort(int *array, size_t size);
 void recursion_heap(int *arr, int i, size_t size, int limit);
 void swaps_nums(int *arr, int a, int b);
+void radix_sort(int *array, size_t size);
 
 #endif /*SORT_H*/
